@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    color: #CACACC;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    background-color: #24252D;
+}
+
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    width: auto;
+    display: inline;
+    color: #E9BC3F;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.em;
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0.2em;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #E9BC3F    ;
+  }
+}
+
+#navigation {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navigation ul {
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: .4em;
+}
+
+#navigation ul li:hover {
+    color: #E9BC3F;
+}
+
+.content {
+    font-size: 1.2em;
+    padding: 2em;
+    line-height: 1.8em;
+}
+
+#about {
+    padding-top: 35px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about a:link,
+#abouta:active,
+#about a:visited {
+    background-color: #555;
+    color: white;
+    padding: .2em;
+}
+
+#about a:hover{
+    background-color:  #E9BC3F;
+}
+
+#contact {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact a:link,
+#contact a:hover,
+#contact:active,
+#contact a:visited {
+    background-color: #555;
+    color: white;
+    padding: .2em;
+}
+
+.cfdt{
+    background-color:#303030 ;
+    width: 100px;
+    color:#e75c21 ;
+    font-weight: bold;
+}
+
+.simplon{
+    background-color:#303030 ;
+    width: 100px;
+    color:#efdf31 ;
+    font-weight: bold;
+}
+
+.reddit{
+    color:#229CFF;
+    background-color:#303030 ;
+    font-weight: bold;
+    width: 100px;
+}
+
+.repoLink:hover{
+color: #E9BC3F;
+}
+
+
